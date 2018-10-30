@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VFThirdPartySwift_Example' do
+  pod 'VFThirdPartySwift', :path => '../'
+
+  target 'VFThirdPartySwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
