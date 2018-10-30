@@ -25,7 +25,7 @@ public class MonthYearPickerView: UIPickerView, UIPickerViewDelegate, UIPickerVi
         }
     }
     
-    var onDateSelected: ((_ month: Int, _ year: Int) -> Void)?
+   public var onDateSelected: ((_ month: Int, _ year: Int) -> Void)?
     
     override init(frame: CGRect) {
         super.init(frame: frame)
