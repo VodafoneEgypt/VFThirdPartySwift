@@ -24,7 +24,7 @@
 import Foundation
 import CommonCryptoModule
 
-@objc  class EDRequestEncoder:NSObject {
+@objc public class EDRequestEncoder:NSObject {
     
     let apiKey: String
     let secretKey: String

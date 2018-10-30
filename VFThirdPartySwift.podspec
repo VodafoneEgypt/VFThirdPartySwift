@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'VFThirdPartySwift'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'ThirdParty swift pod'
   s.description      = 'Pod file contains thirdparty swift files'
   s.homepage         = 'https://github.com/VodafoneEgypt/VFThirdPartySwift'
