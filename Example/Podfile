@@ -1,3 +1,6 @@
+source 'https://github.com/VodafoneEgypt/Specs.git'
+source 'https://github.com/CocoaPods/Specs'
+
 use_frameworks!
 
 target 'VFThirdPartySwift_Example' do
@@ -6,6 +9,5 @@ target 'VFThirdPartySwift_Example' do
   target 'VFThirdPartySwift_Tests' do
     inherit! :search_paths
 
-    
   end
 end

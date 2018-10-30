@@ -1,0 +1,28 @@
+PODS:
+  - CommonCryptoModule (1.0.2)
+  - Languagehandlerpod (0.1.3)
+  - VFThirdPartySwift (0.1.0):
+    - CommonCryptoModule
+    - Languagehandlerpod
+
+DEPENDENCIES:
+  - VFThirdPartySwift (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CommonCryptoModule
+  https://github.com/VodafoneEgypt/Specs.git:
+    - Languagehandlerpod
+
+EXTERNAL SOURCES:
+  VFThirdPartySwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CommonCryptoModule: 63a68b57abed79655b3a01011419bf037a05b0a0
+  Languagehandlerpod: 521f4098e83ebbbfbdf50202d6531a5668c46c08
+  VFThirdPartySwift: a36c8e5d49e37377ba0abde73fc59fed72db73e3
+
+PODFILE CHECKSUM: 1729293401becb7939441a47267a570eb9d93c7a
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Languagehandlerpod {
+  umbrella header "Languagehandlerpod-umbrella.h"
+
+  export *
+  module * { export * }
+}

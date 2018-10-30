@@ -1,0 +1,6 @@
+framework module VFThirdPartySwift {
+  umbrella header "VFThirdPartySwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

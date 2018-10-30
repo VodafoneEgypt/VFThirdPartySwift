@@ -1,0 +1,30 @@
+{
+  "name": "VFThirdPartySwift",
+  "version": "0.1.0",
+  "summary": "ThirdParty swift pod",
+  "description": "Pod file contains thirdparty swift files",
+  "homepage": "https://github.com/VodafoneEgypt/VFThirdPartySwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "VodafoneEgypt": "egypt.apps@vodafone.com"
+  },
+  "source": {
+    "git": "https://github.com/VodafoneEgypt/VFThirdPartySwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "VFThirdPartySwift/Classes/**/*.{swift}",
+  "dependencies": {
+    "CommonCryptoModule": [
+
+    ],
+    "Languagehandlerpod": [
+
+    ]
+  }
+}

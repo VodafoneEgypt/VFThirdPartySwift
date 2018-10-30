@@ -1,0 +1,1177 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DCD89B67668DFA9B66FA4975391EC98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B667E174A838CC8E20F21B7060BDE10B /* Foundation.framework */; };
+		0E0DB48CF9F99DE39CDDCEEAA699164F /* LanguageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF29881F2A03D5CB386385B3BFA1DC /* LanguageHandler.m */; };
+		14C3BB6FDEB8FAC0907ADB8FB567B364 /* Languagehandlerpod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1643EB46513938E05BBA77D0A94ACDE8 /* Languagehandlerpod.framework */; };
+		211D3B10636A70356D5917B7F429AB8B /* module.modulemap in Resources */ = {isa = PBXBuildFile; fileRef = A33180922A6D92292A5C0E8741AF255D /* module.modulemap */; };
+		2701CE8E8041E0F4B4C378984FB88669 /* Languagehandlerpod.h in Headers */ = {isa = PBXBuildFile; fileRef = 39712EC5CD48DBD0D68E84312654EFD8 /* Languagehandlerpod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		323726271DD9433567F757EF29CC0E61 /* VFThirdPartySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D46A9976568751BFEA95E332768F182 /* VFThirdPartySwift-dummy.m */; };
+		37DF80A40A32540AAB8BB06F03FB0A7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B667E174A838CC8E20F21B7060BDE10B /* Foundation.framework */; };
+		3A3EBF53C58884697A4100CC1FE5322A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B667E174A838CC8E20F21B7060BDE10B /* Foundation.framework */; };
+		3C14F3BC1E4D5191A586F79097CC7F7A /* Empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CFF7BC86F773F8CEBD6B1CE2A7B734 /* Empty.swift */; };
+		46D37CFBC5F713734870993F8E793725 /* CommonCryptoModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B0C02EB14E314D23178F3B3A82A2007 /* CommonCryptoModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A3AF1525DEF442ACD68DD8F89B598E9 /* EDRequestEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75296CCD8B519E25326DB1718EB75CA /* EDRequestEncoder.swift */; };
+		59E6C8F05EB99160EBCBD562454C4E04 /* CommonCryptoModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C33F84B38AF9381C88AF7236C7018D4 /* CommonCryptoModule.framework */; };
+		5D3CAB6043FC5A800ECDEC73EE5615BC /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69AE0F9553A28DEFA81117378E16AAD7 /* MonthYearPickerView.swift */; };
+		5E33CFF12C3E23618C58D0209EA92B76 /* Languagehandlerpod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76ECF19437AB7B2431E132F962465911 /* Languagehandlerpod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		629A6133FDA205751770B00AE6ECDC3E /* Languagehandlerpod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 161D3E8BE1C133D89382927858F785BA /* Languagehandlerpod-dummy.m */; };
+		63396AC2E1E375DBE3ACFE8CB51C0C44 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A76E766F8BFDE0F441EF7CDD54A1563 /* UIKit.framework */; };
+		6D5A9C70E1F64ED9D31E92F3C89CF69E /* Pods-VFThirdPartySwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 393C1EC52098FE81033B5C4765604E25 /* Pods-VFThirdPartySwift_Tests-dummy.m */; };
+		7ED1A43917095C1319CBFA8A4C74C4DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B667E174A838CC8E20F21B7060BDE10B /* Foundation.framework */; };
+		80672682C269C3BFFD234812855BE0BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B667E174A838CC8E20F21B7060BDE10B /* Foundation.framework */; };
+		9D6942905A00A1EB39D6416F7EFF3215 /* Pods-VFThirdPartySwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FEC4FFFCEC848831F964CF3A267661 /* Pods-VFThirdPartySwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFA01DDF6C0E768F6C87E71AEAF7005C /* LanguageHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA9BD8855BCD88AAF0CB87E28026F5A /* LanguageHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E819E019272C8244315BA61BCC151118 /* CommonCryptoBridge.h in Resources */ = {isa = PBXBuildFile; fileRef = E7E7F1373722475945324BA30C3C66DA /* CommonCryptoBridge.h */; };
+		EB6AAD0E3416E18F22F1835A15CC4A02 /* CommonCryptoModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 662488FFE28C1D23DC1036BA4ED27168 /* CommonCryptoModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F041FD0A473A640D4B31604B71C6F201 /* CommonCryptoModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23085B3D1213111C353580267FA5369C /* CommonCryptoModule-dummy.m */; };
+		F43931CB203164888FD80FF3E72634B8 /* Pods-VFThirdPartySwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA738BE0C0EBB9EE2309701A6AD869A /* Pods-VFThirdPartySwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F791492207D2AB1FB179CA90EF684C0C /* VFThirdPartySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DDBD56B50FD1593570ED52867007BE /* VFThirdPartySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE9F3AE3BABC9767A68BE8D13D11A5F3 /* Pods-VFThirdPartySwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2CF50418402BC75914EB9DBE4FD8FC /* Pods-VFThirdPartySwift_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85048749C4911A8F47A9BE2BD5E92158 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B3216DE436854387313ADD5163C5379;
+			remoteInfo = CommonCryptoModule;
+		};
+		9C7F0DF900490C5C70FD895346EF77C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94870DB8139868D82B4F7A9568323D5F;
+			remoteInfo = Languagehandlerpod;
+		};
+		B9707D0AEC1B8B10ECDA9ECCCDBEB5C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94870DB8139868D82B4F7A9568323D5F;
+			remoteInfo = Languagehandlerpod;
+		};
+		CF7E6BC9CB10B0480E08B5EEE9953CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B3216DE436854387313ADD5163C5379;
+			remoteInfo = CommonCryptoModule;
+		};
+		DED968328749124AD57A467B602BA662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 772EDB033F80DBE8FF4EA9A5F83A9A7F;
+			remoteInfo = VFThirdPartySwift;
+		};
+		FC95C5969BE180A05D1C226B0112FAE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A6F0DBFD4D4869C1AD83F0BC5F5BBB;
+			remoteInfo = "Pods-VFThirdPartySwift_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		156EC8B6D251D1E4CFFDBB0D78C0AE98 /* VFThirdPartySwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = VFThirdPartySwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		161D3E8BE1C133D89382927858F785BA /* Languagehandlerpod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Languagehandlerpod-dummy.m"; sourceTree = "<group>"; };
+		1643EB46513938E05BBA77D0A94ACDE8 /* Languagehandlerpod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Languagehandlerpod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FEC4FFFCEC848831F964CF3A267661 /* Pods-VFThirdPartySwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VFThirdPartySwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		1965289B9F0AD7212D182F6255B1DFF6 /* Pods-VFThirdPartySwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VFThirdPartySwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1ADC4DF21EA8CB7C7F2E14F1A27C1161 /* Pods-VFThirdPartySwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VFThirdPartySwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1C63201018817D7796BA8BC89DF25B5D /* VFThirdPartySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VFThirdPartySwift.framework; path = VFThirdPartySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C673C8E4C90BA1186565207639711DD /* Pods-VFThirdPartySwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VFThirdPartySwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F8C40CDF7C174B9A8E8AD38BC38B916 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21CFF7BC86F773F8CEBD6B1CE2A7B734 /* Empty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Empty.swift; path = CommonCryptoModule/Empty.swift; sourceTree = "<group>"; };
+		23085B3D1213111C353580267FA5369C /* CommonCryptoModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonCryptoModule-dummy.m"; sourceTree = "<group>"; };
+		23C94876A26A4840C306265B744AC42C /* VFThirdPartySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VFThirdPartySwift.modulemap; sourceTree = "<group>"; };
+		29A0640336A193E0DCD00AC0B28FB2B1 /* Pods-VFThirdPartySwift_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VFThirdPartySwift_Example-resources.sh"; sourceTree = "<group>"; };
+		2C18D5BA4C598087AFA4569B10378470 /* Pods-VFThirdPartySwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VFThirdPartySwift_Tests.modulemap"; sourceTree = "<group>"; };
+		2D9D63153EFF788421C9CB724BB38B3F /* CommonCryptoModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CommonCryptoModule.modulemap; sourceTree = "<group>"; };
+		32AAA1507399108BF66D78F90673A934 /* Pods-VFThirdPartySwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VFThirdPartySwift_Tests-resources.sh"; sourceTree = "<group>"; };
+		366B061791369A11AC27FE33E3981891 /* Pods-VFThirdPartySwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VFThirdPartySwift_Example-frameworks.sh"; sourceTree = "<group>"; };
+		393C1EC52098FE81033B5C4765604E25 /* Pods-VFThirdPartySwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VFThirdPartySwift_Tests-dummy.m"; sourceTree = "<group>"; };
+		39712EC5CD48DBD0D68E84312654EFD8 /* Languagehandlerpod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Languagehandlerpod.h; path = Languagehandlerpod/Languagehandlerpod/Languagehandlerpod.h; sourceTree = "<group>"; };
+		3E25DB07CA9A81DC2C03E53969AA0A89 /* Pods-VFThirdPartySwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VFThirdPartySwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4220B9CA360AC3ECBC0C49C62BD07277 /* Pods-VFThirdPartySwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VFThirdPartySwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C33F84B38AF9381C88AF7236C7018D4 /* CommonCryptoModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CommonCryptoModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5305811212100C614B639878E58919ED /* CommonCryptoModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonCryptoModule-prefix.pch"; sourceTree = "<group>"; };
+		5771D83CF7F4D22E0A3ECE813BDC6840 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58A270F91FEA2F6AB7EF646683DCA55E /* Pods-VFThirdPartySwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VFThirdPartySwift_Example.modulemap"; sourceTree = "<group>"; };
+		58BFA79051180D5C27D3F1AEABD7A228 /* Pods_VFThirdPartySwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VFThirdPartySwift_Example.framework; path = "Pods-VFThirdPartySwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6185D35524FB117E18791E4142E777D0 /* Languagehandlerpod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Languagehandlerpod.xcconfig; sourceTree = "<group>"; };
+		662488FFE28C1D23DC1036BA4ED27168 /* CommonCryptoModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CommonCryptoModule.h; path = CommonCryptoModule/CommonCryptoModule.h; sourceTree = "<group>"; };
+		69AE0F9553A28DEFA81117378E16AAD7 /* MonthYearPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthYearPickerView.swift; path = VFThirdPartySwift/Classes/MonthYearPickerView.swift; sourceTree = "<group>"; };
+		6B0C02EB14E314D23178F3B3A82A2007 /* CommonCryptoModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonCryptoModule-umbrella.h"; sourceTree = "<group>"; };
+		6EA9BD8855BCD88AAF0CB87E28026F5A /* LanguageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LanguageHandler.h; path = Languagehandlerpod/LanguageHandler/LanguageHandler.h; sourceTree = "<group>"; };
+		7453792F2CE261F2CBB7FD501FFC0320 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		76ECF19437AB7B2431E132F962465911 /* Languagehandlerpod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Languagehandlerpod-umbrella.h"; sourceTree = "<group>"; };
+		7AA91194550E73FDE01AAA4A766ADA3B /* Languagehandlerpod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Languagehandlerpod.modulemap; sourceTree = "<group>"; };
+		88BFF616102A2227220105FBE2E53FB2 /* Pods-VFThirdPartySwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VFThirdPartySwift_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8A76E766F8BFDE0F441EF7CDD54A1563 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		919EAFC887A72AC89AA38E366F2DA236 /* CommonCryptoModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonCryptoModule.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AA738BE0C0EBB9EE2309701A6AD869A /* Pods-VFThirdPartySwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VFThirdPartySwift_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D46A9976568751BFEA95E332768F182 /* VFThirdPartySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VFThirdPartySwift-dummy.m"; sourceTree = "<group>"; };
+		A33180922A6D92292A5C0E8741AF255D /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = module.modulemap; path = CommonCryptoModule/CommonCryptoBridge/module.modulemap; sourceTree = "<group>"; };
+		A76035A2D3BD3C501E295921B9DFCFE8 /* VFThirdPartySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VFThirdPartySwift-prefix.pch"; sourceTree = "<group>"; };
+		AB2CF50418402BC75914EB9DBE4FD8FC /* Pods-VFThirdPartySwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VFThirdPartySwift_Example-dummy.m"; sourceTree = "<group>"; };
+		AE1CD03E6B8C6ADFEE18CE908759CC88 /* Pods-VFThirdPartySwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VFThirdPartySwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B667E174A838CC8E20F21B7060BDE10B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B811D7901F3D34FFEE06A3E10719D2C3 /* Pods-VFThirdPartySwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VFThirdPartySwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C0DDBD56B50FD1593570ED52867007BE /* VFThirdPartySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VFThirdPartySwift-umbrella.h"; sourceTree = "<group>"; };
+		C3585C7A4379B7D17DD3F50972645FF2 /* Pods-VFThirdPartySwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VFThirdPartySwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D2F30D9A4640A803AE3AD31C009FCF11 /* Pods_VFThirdPartySwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VFThirdPartySwift_Tests.framework; path = "Pods-VFThirdPartySwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D75296CCD8B519E25326DB1718EB75CA /* EDRequestEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EDRequestEncoder.swift; path = VFThirdPartySwift/Classes/EDRequestEncoder.swift; sourceTree = "<group>"; };
+		E139AEAAF7424141EF6F9EAF29D79E91 /* Languagehandlerpod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Languagehandlerpod-prefix.pch"; sourceTree = "<group>"; };
+		E1FE3FB4CE3181B8D8FA8F15D5E8237D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E7F1373722475945324BA30C3C66DA /* CommonCryptoBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CommonCryptoBridge.h; path = CommonCryptoModule/CommonCryptoBridge/CommonCryptoBridge.h; sourceTree = "<group>"; };
+		EAFF29881F2A03D5CB386385B3BFA1DC /* LanguageHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LanguageHandler.m; path = Languagehandlerpod/LanguageHandler/LanguageHandler.m; sourceTree = "<group>"; };
+		EBEA5E62B614725C3FBB82B84ED5409F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EE947C53AF964BE2D04DCE15B82CC61A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBC1774A7BDEFDB55BD7F924F5E56B0 /* VFThirdPartySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VFThirdPartySwift.xcconfig; sourceTree = "<group>"; };
+		F493CCD4F0F4F73EFA5F6E60407006F9 /* Languagehandlerpod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Languagehandlerpod.framework; path = Languagehandlerpod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F698D0DB2E0CC5BFE2CBCCB2D842BE /* CommonCryptoModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CommonCryptoModule.framework; path = CommonCryptoModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F617E4D3E82EAB19421F87FBAC64FB20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02F66BA3C924EADC80114E06168F49FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80672682C269C3BFFD234812855BE0BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630B1004FF9F0F7807EC16DD4489488A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E6C8F05EB99160EBCBD562454C4E04 /* CommonCryptoModule.framework in Frameworks */,
+				0DCD89B67668DFA9B66FA4975391EC98 /* Foundation.framework in Frameworks */,
+				14C3BB6FDEB8FAC0907ADB8FB567B364 /* Languagehandlerpod.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADBCD3EF532478EB094932E2D5E0226 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A3EBF53C58884697A4100CC1FE5322A /* Foundation.framework in Frameworks */,
+				63396AC2E1E375DBE3ACFE8CB51C0C44 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A247450EE08A9DE502BBAE66F1A46D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED1A43917095C1319CBFA8A4C74C4DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3B6B718F28B88B58688D1F0B084F9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37DF80A40A32540AAB8BB06F03FB0A7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D1720366AC8B227E710FEEC49D5BAA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6607BEF4DFB2393B27CDF0293083679C /* Pods-VFThirdPartySwift_Example */,
+				A18504599DE6E471663C009211BB8BA0 /* Pods-VFThirdPartySwift_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4B66A5ECB593C9DDC1156ADC7F74121B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E69593FC6D38A02D542E0A20CE6DC961 /* CommonCryptoModule */,
+				DA9284E5F48F07FC69C13D2781854009 /* Languagehandlerpod */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6607BEF4DFB2393B27CDF0293083679C /* Pods-VFThirdPartySwift_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1F8C40CDF7C174B9A8E8AD38BC38B916 /* Info.plist */,
+				58A270F91FEA2F6AB7EF646683DCA55E /* Pods-VFThirdPartySwift_Example.modulemap */,
+				1ADC4DF21EA8CB7C7F2E14F1A27C1161 /* Pods-VFThirdPartySwift_Example-acknowledgements.markdown */,
+				4220B9CA360AC3ECBC0C49C62BD07277 /* Pods-VFThirdPartySwift_Example-acknowledgements.plist */,
+				AB2CF50418402BC75914EB9DBE4FD8FC /* Pods-VFThirdPartySwift_Example-dummy.m */,
+				366B061791369A11AC27FE33E3981891 /* Pods-VFThirdPartySwift_Example-frameworks.sh */,
+				29A0640336A193E0DCD00AC0B28FB2B1 /* Pods-VFThirdPartySwift_Example-resources.sh */,
+				18FEC4FFFCEC848831F964CF3A267661 /* Pods-VFThirdPartySwift_Example-umbrella.h */,
+				1965289B9F0AD7212D182F6255B1DFF6 /* Pods-VFThirdPartySwift_Example.debug.xcconfig */,
+				88BFF616102A2227220105FBE2E53FB2 /* Pods-VFThirdPartySwift_Example.release.xcconfig */,
+			);
+			name = "Pods-VFThirdPartySwift_Example";
+			path = "Target Support Files/Pods-VFThirdPartySwift_Example";
+			sourceTree = "<group>";
+		};
+		66AAD982C12A1F20C9844186DB8BCA7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D9D63153EFF788421C9CB724BB38B3F /* CommonCryptoModule.modulemap */,
+				919EAFC887A72AC89AA38E366F2DA236 /* CommonCryptoModule.xcconfig */,
+				23085B3D1213111C353580267FA5369C /* CommonCryptoModule-dummy.m */,
+				5305811212100C614B639878E58919ED /* CommonCryptoModule-prefix.pch */,
+				6B0C02EB14E314D23178F3B3A82A2007 /* CommonCryptoModule-umbrella.h */,
+				F617E4D3E82EAB19421F87FBAC64FB20 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CommonCryptoModule";
+			sourceTree = "<group>";
+		};
+		76C2B3EACF9AB8FDB65229AA9A204AEF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5771D83CF7F4D22E0A3ECE813BDC6840 /* Info.plist */,
+				23C94876A26A4840C306265B744AC42C /* VFThirdPartySwift.modulemap */,
+				EFBC1774A7BDEFDB55BD7F924F5E56B0 /* VFThirdPartySwift.xcconfig */,
+				9D46A9976568751BFEA95E332768F182 /* VFThirdPartySwift-dummy.m */,
+				A76035A2D3BD3C501E295921B9DFCFE8 /* VFThirdPartySwift-prefix.pch */,
+				C0DDBD56B50FD1593570ED52867007BE /* VFThirdPartySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VFThirdPartySwift";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8FB63445FC5BFD1972833DACA1F99D7F /* Development Pods */,
+				C035CA5D7C31A7A8E0A87D85E59FA485 /* Frameworks */,
+				4B66A5ECB593C9DDC1156ADC7F74121B /* Pods */,
+				B515AB869D45BCB22B0D2BA53D312463 /* Products */,
+				08D1720366AC8B227E710FEEC49D5BAA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FB63445FC5BFD1972833DACA1F99D7F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A82627834C1C90F1ABE43936C8AC7607 /* VFThirdPartySwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		982724816AEADC300C0859995BDA29B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7E7F1373722475945324BA30C3C66DA /* CommonCryptoBridge.h */,
+				A33180922A6D92292A5C0E8741AF255D /* module.modulemap */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A18504599DE6E471663C009211BB8BA0 /* Pods-VFThirdPartySwift_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E1FE3FB4CE3181B8D8FA8F15D5E8237D /* Info.plist */,
+				2C18D5BA4C598087AFA4569B10378470 /* Pods-VFThirdPartySwift_Tests.modulemap */,
+				1C673C8E4C90BA1186565207639711DD /* Pods-VFThirdPartySwift_Tests-acknowledgements.markdown */,
+				3E25DB07CA9A81DC2C03E53969AA0A89 /* Pods-VFThirdPartySwift_Tests-acknowledgements.plist */,
+				393C1EC52098FE81033B5C4765604E25 /* Pods-VFThirdPartySwift_Tests-dummy.m */,
+				B811D7901F3D34FFEE06A3E10719D2C3 /* Pods-VFThirdPartySwift_Tests-frameworks.sh */,
+				32AAA1507399108BF66D78F90673A934 /* Pods-VFThirdPartySwift_Tests-resources.sh */,
+				9AA738BE0C0EBB9EE2309701A6AD869A /* Pods-VFThirdPartySwift_Tests-umbrella.h */,
+				AE1CD03E6B8C6ADFEE18CE908759CC88 /* Pods-VFThirdPartySwift_Tests.debug.xcconfig */,
+				C3585C7A4379B7D17DD3F50972645FF2 /* Pods-VFThirdPartySwift_Tests.release.xcconfig */,
+			);
+			name = "Pods-VFThirdPartySwift_Tests";
+			path = "Target Support Files/Pods-VFThirdPartySwift_Tests";
+			sourceTree = "<group>";
+		};
+		A82627834C1C90F1ABE43936C8AC7607 /* VFThirdPartySwift */ = {
+			isa = PBXGroup;
+			children = (
+				D75296CCD8B519E25326DB1718EB75CA /* EDRequestEncoder.swift */,
+				69AE0F9553A28DEFA81117378E16AAD7 /* MonthYearPickerView.swift */,
+				FB5F5C10962249F013733EE1D7741E01 /* Pod */,
+				76C2B3EACF9AB8FDB65229AA9A204AEF /* Support Files */,
+			);
+			name = VFThirdPartySwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B515AB869D45BCB22B0D2BA53D312463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F698D0DB2E0CC5BFE2CBCCB2D842BE /* CommonCryptoModule.framework */,
+				F493CCD4F0F4F73EFA5F6E60407006F9 /* Languagehandlerpod.framework */,
+				58BFA79051180D5C27D3F1AEABD7A228 /* Pods_VFThirdPartySwift_Example.framework */,
+				D2F30D9A4640A803AE3AD31C009FCF11 /* Pods_VFThirdPartySwift_Tests.framework */,
+				1C63201018817D7796BA8BC89DF25B5D /* VFThirdPartySwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C035CA5D7C31A7A8E0A87D85E59FA485 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C33F84B38AF9381C88AF7236C7018D4 /* CommonCryptoModule.framework */,
+				1643EB46513938E05BBA77D0A94ACDE8 /* Languagehandlerpod.framework */,
+				E36FB01F32C40D551D637473A01BD18E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE5EEAFF6F0D144BC819DFD593029B21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE947C53AF964BE2D04DCE15B82CC61A /* Info.plist */,
+				7AA91194550E73FDE01AAA4A766ADA3B /* Languagehandlerpod.modulemap */,
+				6185D35524FB117E18791E4142E777D0 /* Languagehandlerpod.xcconfig */,
+				161D3E8BE1C133D89382927858F785BA /* Languagehandlerpod-dummy.m */,
+				E139AEAAF7424141EF6F9EAF29D79E91 /* Languagehandlerpod-prefix.pch */,
+				76ECF19437AB7B2431E132F962465911 /* Languagehandlerpod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Languagehandlerpod";
+			sourceTree = "<group>";
+		};
+		DA9284E5F48F07FC69C13D2781854009 /* Languagehandlerpod */ = {
+			isa = PBXGroup;
+			children = (
+				6EA9BD8855BCD88AAF0CB87E28026F5A /* LanguageHandler.h */,
+				EAFF29881F2A03D5CB386385B3BFA1DC /* LanguageHandler.m */,
+				39712EC5CD48DBD0D68E84312654EFD8 /* Languagehandlerpod.h */,
+				CE5EEAFF6F0D144BC819DFD593029B21 /* Support Files */,
+			);
+			name = Languagehandlerpod;
+			path = Languagehandlerpod;
+			sourceTree = "<group>";
+		};
+		E36FB01F32C40D551D637473A01BD18E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B667E174A838CC8E20F21B7060BDE10B /* Foundation.framework */,
+				8A76E766F8BFDE0F441EF7CDD54A1563 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E69593FC6D38A02D542E0A20CE6DC961 /* CommonCryptoModule */ = {
+			isa = PBXGroup;
+			children = (
+				662488FFE28C1D23DC1036BA4ED27168 /* CommonCryptoModule.h */,
+				21CFF7BC86F773F8CEBD6B1CE2A7B734 /* Empty.swift */,
+				982724816AEADC300C0859995BDA29B5 /* Resources */,
+				66AAD982C12A1F20C9844186DB8BCA7E /* Support Files */,
+			);
+			name = CommonCryptoModule;
+			path = CommonCryptoModule;
+			sourceTree = "<group>";
+		};
+		FB5F5C10962249F013733EE1D7741E01 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EBEA5E62B614725C3FBB82B84ED5409F /* LICENSE */,
+				7453792F2CE261F2CBB7FD501FFC0320 /* README.md */,
+				156EC8B6D251D1E4CFFDBB0D78C0AE98 /* VFThirdPartySwift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02539CB672B45A2C705A2220F67C8DB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6942905A00A1EB39D6416F7EFF3215 /* Pods-VFThirdPartySwift_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB6892BCF32B512E7CC5550F3D7316B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D37CFBC5F713734870993F8E793725 /* CommonCryptoModule-umbrella.h in Headers */,
+				EB6AAD0E3416E18F22F1835A15CC4A02 /* CommonCryptoModule.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EE049A5A65C46F80BE762B322528FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43931CB203164888FD80FF3E72634B8 /* Pods-VFThirdPartySwift_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F72CDF1BFFC329C320B2C5151F0AD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F791492207D2AB1FB179CA90EF684C0C /* VFThirdPartySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9553AC29952A3C563B0E9A470C5EC25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA01DDF6C0E768F6C87E71AEAF7005C /* LanguageHandler.h in Headers */,
+				5E33CFF12C3E23618C58D0209EA92B76 /* Languagehandlerpod-umbrella.h in Headers */,
+				2701CE8E8041E0F4B4C378984FB88669 /* Languagehandlerpod.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B3216DE436854387313ADD5163C5379 /* CommonCryptoModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A825382FE6CB75BCE95AE224CE791A70 /* Build configuration list for PBXNativeTarget "CommonCryptoModule" */;
+			buildPhases = (
+				0559E93A9CE718ED38EFBD0A9F255EE2 /* Sources */,
+				FD3B6B718F28B88B58688D1F0B084F9B /* Frameworks */,
+				0DB6892BCF32B512E7CC5550F3D7316B /* Headers */,
+				BE571EEA172D72309827CFAE419CDB53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CommonCryptoModule;
+			productName = CommonCryptoModule;
+			productReference = F5F698D0DB2E0CC5BFE2CBCCB2D842BE /* CommonCryptoModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		772EDB033F80DBE8FF4EA9A5F83A9A7F /* VFThirdPartySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEB824D2073DC41E4910328C0F0A00F /* Build configuration list for PBXNativeTarget "VFThirdPartySwift" */;
+			buildPhases = (
+				A76CF9F4E721B7358B0DE7614E52FD76 /* Sources */,
+				630B1004FF9F0F7807EC16DD4489488A /* Frameworks */,
+				69F72CDF1BFFC329C320B2C5151F0AD7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C95BCA249802401553583DF441FCE0E9 /* PBXTargetDependency */,
+				1D334CB2ABCC063CA8492494B2A9F1EB /* PBXTargetDependency */,
+			);
+			name = VFThirdPartySwift;
+			productName = VFThirdPartySwift;
+			productReference = 1C63201018817D7796BA8BC89DF25B5D /* VFThirdPartySwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94870DB8139868D82B4F7A9568323D5F /* Languagehandlerpod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6CDB23992EDAE56297FB970BD908FF /* Build configuration list for PBXNativeTarget "Languagehandlerpod" */;
+			buildPhases = (
+				E1A4D4A49498D8DEF73D1A2A17898FEC /* Sources */,
+				9ADBCD3EF532478EB094932E2D5E0226 /* Frameworks */,
+				B9553AC29952A3C563B0E9A470C5EC25 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Languagehandlerpod;
+			productName = Languagehandlerpod;
+			productReference = F493CCD4F0F4F73EFA5F6E60407006F9 /* Languagehandlerpod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2A6F0DBFD4D4869C1AD83F0BC5F5BBB /* Pods-VFThirdPartySwift_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5C92CF2F9807B6D997FE0E66743EA23 /* Build configuration list for PBXNativeTarget "Pods-VFThirdPartySwift_Example" */;
+			buildPhases = (
+				0FB479415B761C59F77CD9C45E815112 /* Sources */,
+				02F66BA3C924EADC80114E06168F49FE /* Frameworks */,
+				02539CB672B45A2C705A2220F67C8DB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				560B298C85C6F90774F1D6DEA7F6A385 /* PBXTargetDependency */,
+				54406B05960FFD35AA119B29D2BD3713 /* PBXTargetDependency */,
+				3EA3BEC42D65BCDBFDB69B0689A2460F /* PBXTargetDependency */,
+			);
+			name = "Pods-VFThirdPartySwift_Example";
+			productName = "Pods-VFThirdPartySwift_Example";
+			productReference = 58BFA79051180D5C27D3F1AEABD7A228 /* Pods_VFThirdPartySwift_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF17E2071F1134CB990AC0D5DFFFFB72 /* Pods-VFThirdPartySwift_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 430C0C2D27003A9C414494D53025E136 /* Build configuration list for PBXNativeTarget "Pods-VFThirdPartySwift_Tests" */;
+			buildPhases = (
+				F4C58335089F13DC7A587140CE94E770 /* Sources */,
+				A247450EE08A9DE502BBAE66F1A46D16 /* Frameworks */,
+				60EE049A5A65C46F80BE762B322528FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B116D1C6A63E3CCE97B59CE00E8CDF6 /* PBXTargetDependency */,
+			);
+			name = "Pods-VFThirdPartySwift_Tests";
+			productName = "Pods-VFThirdPartySwift_Tests";
+			productReference = D2F30D9A4640A803AE3AD31C009FCF11 /* Pods_VFThirdPartySwift_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B515AB869D45BCB22B0D2BA53D312463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B3216DE436854387313ADD5163C5379 /* CommonCryptoModule */,
+				94870DB8139868D82B4F7A9568323D5F /* Languagehandlerpod */,
+				A2A6F0DBFD4D4869C1AD83F0BC5F5BBB /* Pods-VFThirdPartySwift_Example */,
+				EF17E2071F1134CB990AC0D5DFFFFB72 /* Pods-VFThirdPartySwift_Tests */,
+				772EDB033F80DBE8FF4EA9A5F83A9A7F /* VFThirdPartySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE571EEA172D72309827CFAE419CDB53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E819E019272C8244315BA61BCC151118 /* CommonCryptoBridge.h in Resources */,
+				211D3B10636A70356D5917B7F429AB8B /* module.modulemap in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0559E93A9CE718ED38EFBD0A9F255EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F041FD0A473A640D4B31604B71C6F201 /* CommonCryptoModule-dummy.m in Sources */,
+				3C14F3BC1E4D5191A586F79097CC7F7A /* Empty.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FB479415B761C59F77CD9C45E815112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9F3AE3BABC9767A68BE8D13D11A5F3 /* Pods-VFThirdPartySwift_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76CF9F4E721B7358B0DE7614E52FD76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A3AF1525DEF442ACD68DD8F89B598E9 /* EDRequestEncoder.swift in Sources */,
+				5D3CAB6043FC5A800ECDEC73EE5615BC /* MonthYearPickerView.swift in Sources */,
+				323726271DD9433567F757EF29CC0E61 /* VFThirdPartySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A4D4A49498D8DEF73D1A2A17898FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0DB48CF9F99DE39CDDCEEAA699164F /* LanguageHandler.m in Sources */,
+				629A6133FDA205751770B00AE6ECDC3E /* Languagehandlerpod-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C58335089F13DC7A587140CE94E770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5A9C70E1F64ED9D31E92F3C89CF69E /* Pods-VFThirdPartySwift_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B116D1C6A63E3CCE97B59CE00E8CDF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VFThirdPartySwift_Example";
+			target = A2A6F0DBFD4D4869C1AD83F0BC5F5BBB /* Pods-VFThirdPartySwift_Example */;
+			targetProxy = FC95C5969BE180A05D1C226B0112FAE2 /* PBXContainerItemProxy */;
+		};
+		1D334CB2ABCC063CA8492494B2A9F1EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Languagehandlerpod;
+			target = 94870DB8139868D82B4F7A9568323D5F /* Languagehandlerpod */;
+			targetProxy = B9707D0AEC1B8B10ECDA9ECCCDBEB5C1 /* PBXContainerItemProxy */;
+		};
+		3EA3BEC42D65BCDBFDB69B0689A2460F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VFThirdPartySwift;
+			target = 772EDB033F80DBE8FF4EA9A5F83A9A7F /* VFThirdPartySwift */;
+			targetProxy = DED968328749124AD57A467B602BA662 /* PBXContainerItemProxy */;
+		};
+		54406B05960FFD35AA119B29D2BD3713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Languagehandlerpod;
+			target = 94870DB8139868D82B4F7A9568323D5F /* Languagehandlerpod */;
+			targetProxy = 9C7F0DF900490C5C70FD895346EF77C9 /* PBXContainerItemProxy */;
+		};
+		560B298C85C6F90774F1D6DEA7F6A385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CommonCryptoModule;
+			target = 1B3216DE436854387313ADD5163C5379 /* CommonCryptoModule */;
+			targetProxy = 85048749C4911A8F47A9BE2BD5E92158 /* PBXContainerItemProxy */;
+		};
+		C95BCA249802401553583DF441FCE0E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CommonCryptoModule;
+			target = 1B3216DE436854387313ADD5163C5379 /* CommonCryptoModule */;
+			targetProxy = CF7E6BC9CB10B0480E08B5EEE9953CE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0926284D4D089ACA80288FF01676EFBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBC1774A7BDEFDB55BD7F924F5E56B0 /* VFThirdPartySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VFThirdPartySwift/VFThirdPartySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VFThirdPartySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VFThirdPartySwift/VFThirdPartySwift.modulemap";
+				PRODUCT_MODULE_NAME = VFThirdPartySwift;
+				PRODUCT_NAME = VFThirdPartySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11F3FA31941E4A2CF463BE3BD46B3368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE1CD03E6B8C6ADFEE18CE908759CC88 /* Pods-VFThirdPartySwift_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VFThirdPartySwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VFThirdPartySwift_Tests/Pods-VFThirdPartySwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F267618D3B7C5AB7497FB4058D2629B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBC1774A7BDEFDB55BD7F924F5E56B0 /* VFThirdPartySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VFThirdPartySwift/VFThirdPartySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VFThirdPartySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VFThirdPartySwift/VFThirdPartySwift.modulemap";
+				PRODUCT_MODULE_NAME = VFThirdPartySwift;
+				PRODUCT_NAME = VFThirdPartySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34BBAB160C3F5FBB08811B54E663014B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BFF616102A2227220105FBE2E53FB2 /* Pods-VFThirdPartySwift_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VFThirdPartySwift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VFThirdPartySwift_Example/Pods-VFThirdPartySwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		436B0E2416ECC2040A6970B051CF186F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6185D35524FB117E18791E4142E777D0 /* Languagehandlerpod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Languagehandlerpod/Languagehandlerpod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Languagehandlerpod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Languagehandlerpod/Languagehandlerpod.modulemap";
+				PRODUCT_MODULE_NAME = Languagehandlerpod;
+				PRODUCT_NAME = Languagehandlerpod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		690B74E5428F4191827F9AFC787D1795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919EAFC887A72AC89AA38E366F2DA236 /* CommonCryptoModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CommonCryptoModule/CommonCryptoModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CommonCryptoModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CommonCryptoModule/CommonCryptoModule.modulemap";
+				PRODUCT_MODULE_NAME = CommonCryptoModule;
+				PRODUCT_NAME = CommonCryptoModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		753C8841E9828505773585D3FE339BF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3585C7A4379B7D17DD3F50972645FF2 /* Pods-VFThirdPartySwift_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VFThirdPartySwift_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VFThirdPartySwift_Tests/Pods-VFThirdPartySwift_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F1BC02B17713D0A11910E76932B9FBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1965289B9F0AD7212D182F6255B1DFF6 /* Pods-VFThirdPartySwift_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VFThirdPartySwift_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VFThirdPartySwift_Example/Pods-VFThirdPartySwift_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC68115EB29C0422E74942B76FB3CD36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6185D35524FB117E18791E4142E777D0 /* Languagehandlerpod.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Languagehandlerpod/Languagehandlerpod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Languagehandlerpod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Languagehandlerpod/Languagehandlerpod.modulemap";
+				PRODUCT_MODULE_NAME = Languagehandlerpod;
+				PRODUCT_NAME = Languagehandlerpod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCB62D66BDD65B54283E87D389989AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 919EAFC887A72AC89AA38E366F2DA236 /* CommonCryptoModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CommonCryptoModule/CommonCryptoModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CommonCryptoModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CommonCryptoModule/CommonCryptoModule.modulemap";
+				PRODUCT_MODULE_NAME = CommonCryptoModule;
+				PRODUCT_NAME = CommonCryptoModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEB824D2073DC41E4910328C0F0A00F /* Build configuration list for PBXNativeTarget "VFThirdPartySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0926284D4D089ACA80288FF01676EFBC /* Debug */,
+				1F267618D3B7C5AB7497FB4058D2629B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		430C0C2D27003A9C414494D53025E136 /* Build configuration list for PBXNativeTarget "Pods-VFThirdPartySwift_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F3FA31941E4A2CF463BE3BD46B3368 /* Debug */,
+				753C8841E9828505773585D3FE339BF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6CDB23992EDAE56297FB970BD908FF /* Build configuration list for PBXNativeTarget "Languagehandlerpod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC68115EB29C0422E74942B76FB3CD36 /* Debug */,
+				436B0E2416ECC2040A6970B051CF186F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A825382FE6CB75BCE95AE224CE791A70 /* Build configuration list for PBXNativeTarget "CommonCryptoModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690B74E5428F4191827F9AFC787D1795 /* Debug */,
+				FCB62D66BDD65B54283E87D389989AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5C92CF2F9807B6D997FE0E66743EA23 /* Build configuration list for PBXNativeTarget "Pods-VFThirdPartySwift_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BC02B17713D0A11910E76932B9FBFF /* Debug */,
+				34BBAB160C3F5FBB08811B54E663014B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

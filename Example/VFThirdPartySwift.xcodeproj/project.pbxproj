@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0491A0FC72ABF34E1A7B8155 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0491A0FC72ABF34E1A7B8155 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		18281A5FC3A1853050A07CA6 /* Pods_VFThirdPartySwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VFThirdPartySwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDF7B1588BEED2A5BB0930C /* Pods_VFThirdPartySwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VFThirdPartySwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* VFThirdPartySwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VFThirdPartySwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,11 +42,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		725E729EA35AF15999192FDA /* Pods-VFThirdPartySwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VFThirdPartySwift_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VFThirdPartySwift_Tests/Pods-VFThirdPartySwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AC9A1D5F9974F661901A5E81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AC9A1D5F9974F661901A5E81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CA04AB51C7E94B6565CD8BFF /* Pods-VFThirdPartySwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VFThirdPartySwift_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-VFThirdPartySwift_Example/Pods-VFThirdPartySwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D4E986D55FA05706B0747493 /* Pods-VFThirdPartySwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VFThirdPartySwift_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VFThirdPartySwift_Example/Pods-VFThirdPartySwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F575D03319393A8C59DCB03C /* Pods-VFThirdPartySwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VFThirdPartySwift_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VFThirdPartySwift_Tests/Pods-VFThirdPartySwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F5E31709705A91FF5E96C157 /* VFThirdPartySwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VFThirdPartySwift.podspec; path = ../VFThirdPartySwift.podspec; sourceTree = "<group>"; };
+		F5E31709705A91FF5E96C157 /* VFThirdPartySwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VFThirdPartySwift.podspec; path = ../VFThirdPartySwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,10 +304,14 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-VFThirdPartySwift_Example/Pods-VFThirdPartySwift_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CommonCryptoModule/CommonCryptoModule.framework",
+				"${BUILT_PRODUCTS_DIR}/Languagehandlerpod/Languagehandlerpod.framework",
 				"${BUILT_PRODUCTS_DIR}/VFThirdPartySwift/VFThirdPartySwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CommonCryptoModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Languagehandlerpod.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VFThirdPartySwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
